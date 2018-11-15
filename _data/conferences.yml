@@ -1,0 +1,178 @@
+---
+
+# Security and Privacy
+
+- name: S&P (Oakland)
+  year: 2019
+  description: IEEE Symposium on Security and Privacy
+  link: https://www.ieee-security.org/TC/SP2019/
+  deadline: "%y-%m-01 15:00"
+  timezone: Etc/GMT+7
+  comment: Rolling deadline every month
+  tags: [SEC, PRIV]
+  
+- name: Euro S&P
+  description: IEEE European Symposium on Security and Privacy
+  year: 2019
+  link: https://www.ieee-security.org/TC/EuroSP2019/
+  deadline: "2018-11-13 23:59"
+  comment: Voluntary Abstract Registration until 2018-10-15
+  date: "June 17 - June 19"
+  place: Stockholm, Sweden
+  tags: [SEC, PRIV]
+
+- name: CCS
+  description: ACM Conference on Computer and Communications Security
+  year: 2019
+  link: https://www.sigsac.org/ccs/CCS2018/
+  deadline: "2018-05-08 23:59"
+  deadline:
+    - "%y-01-15 23:59"
+    - "%y-05-15 23:59"
+    - "%y-09-15 23:59"
+  comment: Rolling deadline every 4 months
+  date: "TBA"
+  place: London, UK
+  tags: [SEC, PRIV]
+
+- name: Usenix
+  description: Usenix Security Symposium
+  year: 2019
+  link: https://www.usenix.org/conference/usenixsecurity19
+  deadline:
+    - "%y-11-15 23:59"
+    - "%y-02-15 23:59"
+    - "%y-05-15 23:59"
+    - "%y-08-15 23:59"
+  comment: Rolling deadline every quarter
+  timezone: America/Los_Angeles
+  date: "August 14-16"
+  place: Santa Clara, CA, USA
+  tags: [SEC, PRIV]
+
+- name: NDSS
+  description: ISOC Network and Distributed System Security Symposium
+  year: 2019
+  link: https://www.ndss-symposium.org/ndss2019/
+  deadline: "2018-08-07 23:59"
+  timezone: America/New_York
+  date: February 24-27
+  place: San Diego, CA, USA
+  tags: SEC
+
+#- name: ESORICS
+#  description: European Symposium on Research in Computer Security
+
+# === Privacy
+
+#- name: WPES
+#  description: Workshop on Privacy in the Electronic Society
+
+#- name: PETS
+#  description: Privacy Enhancing Technologies Symposium
+
+
+# Crypto
+
+#- name: Crypto
+#  description: International Cryptology Conference
+
+
+#- name: Eurocrypt
+#  description: European Cryptology Conference
+
+#- name: Asiacrypt
+#  description: International Conference on the Theory and Application of Cryptology and Information Security
+
+#- name: FC
+#  description: Financial Cryptography and Data Security
+
+#- name: TCC
+#  description: Theory of Cryptography Conference
+
+#- name: CSF
+#  description: IEEE Computer Security Foundations Symposium
+
+#- name: PKC
+#  description: International Conference on Practice and Theory of Public Key Cryptography
+
+#- name: CT-RSA
+#  description: RSA Conference Cryptographers’ Track
+  
+#- name: TCHES
+#  description: IACR Transactions on Cryptographic Hardware and Embedded Systems
+
+
+# === Networks and systems, applications
+
+#- name: PerCom
+#  description: IEEE International Conference on Pervasive Computing and Communication
+
+#- name: RAID
+#  description: International Symposium on Recent Advances in Intrusion Detection
+
+- name: ACSAC
+  description: Annual Computer Security Applications Conference
+  year: 2018
+  link: https://www.acsac.org/
+  deadline: "2017-06-08 23:59"
+  timezone: America/New_York
+  date: December 4-8
+  place: San Juan, Puerto Rico, USA
+  tags: SEC
+
+#- name: IMC
+#  description: Internet Measurement Conference
+
+- name: DSN
+  description: The International Conference on Dependable Systems and Networks
+  year: 2019
+  link: https://dsn.org/
+  deadline: "2018-11-30 23:59"
+  date: TBA
+  place: Portland, Oregon
+  tags: SEC
+
+#- name: ACNS
+#  description: International Conference on Applied Cryptography and Network Security
+
+#- name: eCrime
+#  description: 13th Symposium on Electronic Crime Research
+
+# === Real-time
+
+- name: RTSS
+  description: The IEEE Real-Time Systems Symposium
+  year: 2019
+  link: http://2018.rtss.org/
+  deadline: "2019-5-31 23:59"
+  data: TBA
+  place: Hongkong, China
+  tags: RT
+
+- name: ECRTS
+  description: The Euromicro Conference on Real-Time Systems
+  year: 2019
+  link: https://www.ecrts.org/archives/index.php?id=ecrts19
+  deadline: "2019-2-7 23:59"
+  data: TBA
+  place: Bosch in Stuttgart, Germany
+  tags: RT  
+
+- name: CPS and IoT week
+  description: The Embedded System Week
+  year: 2019
+  link: http://cpslab.cs.mcgill.ca/cpsiotweek2019/work.html
+  deadline: "2019-2-7 23:59"
+  data: TBA
+  place: TBD
+  tags: RT  
+
+- name: ESweek
+  description: The Euromicro Conference on Real-Time Systems
+  year: 2019
+  link: https://www.esweek.org/emsoft/about
+  deadline: "2019-2-7 23:59"
+  data: TBA
+  place: TBD
+  tags: RT  
