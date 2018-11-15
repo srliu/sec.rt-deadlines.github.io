@@ -12,3 +12,5 @@ baseurl: ""
 
 markdown: typora
 
+
+theme: jekyll-theme-time-machine
