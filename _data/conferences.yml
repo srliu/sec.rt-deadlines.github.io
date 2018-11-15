@@ -2,38 +2,38 @@
 
 # Security and Privacy
 
-- name: S&P (Oakland)
-  year: 2019
+- name: S&P 
   description: IEEE Symposium on Security and Privacy
+  year: 2019 
   link: https://www.ieee-security.org/TC/SP2019/
   deadline: "%y-%m-01 15:00"
   timezone: Etc/GMT+7
-  comment: Rolling deadline every month
-  tags: [SEC, PRIV]
+  comment: 
+  data: "May 20 - May 22"
+  place: SAN FRANCISCO, USA 
+  tags: [SEC]
   
 - name: Euro S&P
   description: IEEE European Symposium on Security and Privacy
   year: 2019
   link: https://www.ieee-security.org/TC/EuroSP2019/
   deadline: "2018-11-13 23:59"
+  timezone: Etc/GMT+7
   comment: Voluntary Abstract Registration until 2018-10-15
   date: "June 17 - June 19"
   place: Stockholm, Sweden
-  tags: [SEC, PRIV]
+  tags: [SEC]
 
 - name: CCS
   description: ACM Conference on Computer and Communications Security
   year: 2019
   link: https://www.sigsac.org/ccs/CCS2018/
   deadline: "2018-05-08 23:59"
-  deadline:
-    - "%y-01-15 23:59"
-    - "%y-05-15 23:59"
-    - "%y-09-15 23:59"
-  comment: Rolling deadline every 4 months
-  date: "TBA"
-  place: London, UK
-  tags: [SEC, PRIV]
+  timezone: Etc/UTC
+  comment: 
+  date: "Oct 15 - Oct 19, 2018"
+  place: Otronto, Canada
+  tags: [SEC]
 
 - name: Usenix
   description: Usenix Security Symposium
@@ -48,7 +48,7 @@
   timezone: America/Los_Angeles
   date: "August 14-16"
   place: Santa Clara, CA, USA
-  tags: [SEC, PRIV]
+  tags: [SEC]
 
 - name: NDSS
   description: ISOC Network and Distributed System Security Symposium
@@ -58,7 +58,7 @@
   timezone: America/New_York
   date: February 24-27
   place: San Diego, CA, USA
-  tags: SEC
+  tags: [SEC]
 
 #- name: ESORICS
 #  description: European Symposium on Research in Computer Security
@@ -148,7 +148,7 @@
   deadline: "2019-5-31 23:59"
   data: TBA
   place: Hongkong, China
-  tags: RT
+  tags: [RT]
 
 - name: ECRTS
   description: The Euromicro Conference on Real-Time Systems
@@ -157,7 +157,7 @@
   deadline: "2019-2-7 23:59"
   data: TBA
   place: Bosch in Stuttgart, Germany
-  tags: RT  
+  tags: [RT]  
 
 - name: CPS and IoT week
   description: The Embedded System Week
@@ -166,7 +166,7 @@
   deadline: "2019-2-7 23:59"
   data: TBA
   place: TBD
-  tags: RT  
+  tags: [RT]  
 
 - name: ESweek
   description: The Euromicro Conference on Real-Time Systems
@@ -175,4 +175,4 @@
   deadline: "2019-2-7 23:59"
   data: TBA
   place: TBD
-  tags: RT  
+  tags: [RT]  

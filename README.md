@@ -1,6 +1,6 @@
 # Security and Real-time System deadlines countdown
 
-Based on [sec-deadlines]https://sec-deadlines.github.io/)
+Based on [sec-deadlines](https://sec-deadlines.github.io/)
 
 ## Adding/updating a conference
 
