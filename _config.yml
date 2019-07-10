@@ -1,6 +1,6 @@
-title: Security and Real-time System Conference Deadlines
-description: Countdowns to top Security and Real-time System conference deadlines.
-author: Songran Liu
+title: SECurity and Real-Time System Conference Deadlines
+description: Countdowns to Security and Real-time System conference deadlines.
+author: Elk Liu
 
 domain: "sec.rts-deadlines.github.io"
 baseurl: ""
@@ -13,4 +13,5 @@ baseurl: ""
 markdown: typora
 
 
-theme: jekyll-theme-time-machine
+#theme: jekyll-theme-time-machine
+theme:  jekyll-theme-architect
