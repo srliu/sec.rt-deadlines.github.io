@@ -1,38 +1,47 @@
 ---
 
-# Security and Privacy
-
-- name: S&P 
+# Security
+- name: S&P (San Francisco)
+  year: 2020
+  date: "May 18 – 20 2020"
   description: IEEE Symposium on Security and Privacy
-  year: 2019 
-  link: https://www.ieee-security.org/TC/SP2019/
+  link: https://www.ieee-security.org/TC/SP2020/index.html
   deadline: "%y-%m-01 15:00"
   timezone: Etc/GMT+7
-  comment: 
-  data: "May 20 - May 22"
-  place: SAN FRANCISCO, USA 
+  comment: Rolling deadline every month
   tags: [SEC]
-  
+
 - name: Euro S&P
   description: IEEE European Symposium on Security and Privacy
-  year: 2019
-  link: https://www.ieee-security.org/TC/EuroSP2019/
-  deadline: "2018-11-13 23:59"
-  timezone: Etc/GMT+7
-  comment: Voluntary Abstract Registration until 2018-10-15
-  date: "June 17 - June 19"
-  place: Stockholm, Sweden
+  year: 2020
+  link: https://www.ieee-security.org/TC/EuroSP2020/
+  deadline: "2019-11-20 23:59"
+  comment: Voluntary Abstract Registration until 2019-10-22
+  date: "June 16 - June 18"
+  place: Genova, Italy
   tags: [SEC]
 
 - name: CCS
   description: ACM Conference on Computer and Communications Security
   year: 2019
-  link: https://www.sigsac.org/ccs/CCS2018/
+  link: https://www.sigsac.org/ccs/CCS2019/
   deadline: "2018-05-08 23:59"
-  timezone: Etc/UTC
-  comment: 
-  date: "Oct 15 - Oct 19, 2018"
-  place: Otronto, Canada
+  deadline:
+    - "%y-02-05 23:59"
+    - "%y-05-15 23:59"
+    - "%y-09-15 23:59"
+  comment: Rolling deadline every 4 months
+  date: "November 11-15"
+  place: London, UK
+  tags: [SEC]
+
+- name: AsiaCCS
+  description: ACM Asia Conference on Computer and Communications Security
+  year: 2020
+  link: https://asiaccs2020.cs.nthu.edu.tw/
+  deadline: "2019-12-10 23:59"
+  date: "June 1-5"
+  place: Taipei, Taiwan
   tags: [SEC]
 
 - name: Usenix
@@ -40,106 +49,56 @@
   year: 2019
   link: https://www.usenix.org/conference/usenixsecurity19
   deadline:
-    - "%y-11-15 23:59"
-    - "%y-02-15 23:59"
-    - "%y-05-15 23:59"
-    - "%y-08-15 23:59"
+    - "%y-08-23 19:59"
+    - "%y-11-15 19:59"
+    - "%y-02-15 19:59"
+    - "%y-05-15 19:59"
   comment: Rolling deadline every quarter
-  timezone: America/Los_Angeles
+  timezone: America/New_York
   date: "August 14-16"
   place: Santa Clara, CA, USA
   tags: [SEC]
 
 - name: NDSS
   description: ISOC Network and Distributed System Security Symposium
-  year: 2019
-  link: https://www.ndss-symposium.org/ndss2019/
-  deadline: "2018-08-07 23:59"
-  timezone: America/New_York
-  date: February 24-27
+  year: 2020
+  link: https://www.ndss-symposium.org/ndss2020/
+  deadline:
+    - "%y-06-14 23:59"
+    - "%y-09-13 23:59"
+  date: February 23-26
   place: San Diego, CA, USA
   tags: [SEC]
 
-#- name: ESORICS
-#  description: European Symposium on Research in Computer Security
-
-# === Privacy
-
-#- name: WPES
-#  description: Workshop on Privacy in the Electronic Society
-
-#- name: PETS
-#  description: Privacy Enhancing Technologies Symposium
-
-
-# Crypto
-
-#- name: Crypto
-#  description: International Cryptology Conference
-
-
-#- name: Eurocrypt
-#  description: European Cryptology Conference
-
-#- name: Asiacrypt
-#  description: International Conference on the Theory and Application of Cryptology and Information Security
-
-#- name: FC
-#  description: Financial Cryptography and Data Security
-
-#- name: TCC
-#  description: Theory of Cryptography Conference
-
-#- name: CSF
-#  description: IEEE Computer Security Foundations Symposium
-
-#- name: PKC
-#  description: International Conference on Practice and Theory of Public Key Cryptography
-
-#- name: CT-RSA
-#  description: RSA Conference Cryptographers’ Track
-  
-#- name: TCHES
-#  description: IACR Transactions on Cryptographic Hardware and Embedded Systems
-
-
-# === Networks and systems, applications
-
-#- name: PerCom
-#  description: IEEE International Conference on Pervasive Computing and Communication
-
-#- name: RAID
-#  description: International Symposium on Recent Advances in Intrusion Detection
+- name: RAID
+  description: International Symposium on Recent Advances in Intrusion Detection
+  year: 2019
+  link: https://www.raid-2019.org/
+  deadline: "2019-04-02 23:59"
+  date: September 23-25
+  place: Beijing, China
+  tags: [SEC]
 
 - name: ACSAC
   description: Annual Computer Security Applications Conference
-  year: 2018
-  link: https://www.acsac.org/
-  deadline: "2017-06-08 23:59"
-  timezone: America/New_York
-  date: December 4-8
+  year: 2019
+  link: https://www.acsac.org/2019/
+  deadline: "2019-06-08 23:59"
+  date: Dec 9-13
   place: San Juan, Puerto Rico, USA
-  tags: SEC
-
-#- name: IMC
-#  description: Internet Measurement Conference
+  tags: [SEC]
 
 - name: DSN
   description: The International Conference on Dependable Systems and Networks
-  year: 2019
+  year: 2020
   link: https://dsn.org/
-  deadline: "2018-11-30 23:59"
+  deadline: "2019-12-03 23:59"
   date: TBA
-  place: Portland, Oregon
-  tags: SEC
+  place: Valencia, Spain
+  tags: [SEC]
 
-#- name: ACNS
-#  description: International Conference on Applied Cryptography and Network Security
 
-#- name: eCrime
-#  description: 13th Symposium on Electronic Crime Research
-
-# === Real-time
+# Real-time
 
 - name: RTSS
   description: The IEEE Real-Time Systems Symposium

@@ -1,6 +1,6 @@
 title: SECurity and Real-Time System Conference Deadlines
 description: Countdowns to Security and Real-time System conference deadlines.
-author: Elk Liu
+author: srLiu
 
 domain: "sec.rts-deadlines.github.io"
 baseurl: ""
@@ -10,7 +10,7 @@ baseurl: ""
 #github_repo: sec-deadlines
 #ga_id: UA-104921371-1
 
-markdown: typora
+markdown: kramdown
 
 
 #theme: jekyll-theme-time-machine
