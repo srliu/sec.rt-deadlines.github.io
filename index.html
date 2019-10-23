@@ -56,6 +56,7 @@
           <div class="row">
               <div class="col-xs-12 col-sm-6">
                 <h2><a href="{{conf.link}}">{{conf.name}} {{conf.year}}</a></h2>
+                <a color="#FF0000">
                 <div class="meta">
                   {{ conf.description }}<br>
                   {{conf.date | replace: '-', '–'}} {% if conf.place %}// <a href="http://maps.google.com/?q={{conf.place}}">{{conf.place}}</a>{% endif %}<br>
